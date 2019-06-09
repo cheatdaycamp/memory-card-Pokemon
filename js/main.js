@@ -64,6 +64,12 @@ $(document).ready(function() {
         }
 
         pokemon.startPlaying = function(e) {
+            $("#mybulb").attr("src", "https://img.icons8.com/office/80/000000/light.png");
+            $('.back-face').attr('src', "./img/pokeball.png");
+            $('.back-face').css('background', '#ffce54');
+            $('.front-face').css('background', '#ffce54');
+            $('body').removeClass('bkg-yellow');
+            $('body').addClass('bkg-white');
             var wrongs = 0;
             $('#wrongNumber').html(wrongs);
             $('#cardscontainer').html("");

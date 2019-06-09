@@ -45,7 +45,7 @@ $(document).ready(function() {
                         $("#mybulb").attr("src", "https://img.icons8.com/office/80/000000/light.png");
                         $('.back-face').attr('src', "./img/pokeball.png");
                         $('.back-face').css('background', '#ffce54');
-                        $('.front-face').css('background', 'black');
+                        $('.front-face').css('background', '#ffce54');
 
                     }
                     $('body').toggleClass('bkg-yellow');
